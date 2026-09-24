@@ -29,6 +29,14 @@ Web Awesome follows <a href="https://semver.org/" class="appearance-plain">Seman
 
 {% include "changelog-email-signup.njk" %}
 
+## Unreleased
+
+:::fixed
+
+- Fixed a regression in implicit form submission where pressing [[Enter]] submitted the form even when its submit button was disabled [issue:2860]
+
+:::
+
 ## 3.14.0
 
 <small><time datetime="2026-09-24">September 24th, 2026</time></small>
